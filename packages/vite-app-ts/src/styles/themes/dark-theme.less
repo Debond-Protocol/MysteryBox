@@ -1,0 +1,156 @@
+@import 'antd/dist/antd.dark.less';
+
+//@primary-color: #403AF4;
+@primary-color: #403af4;
+@border-radius-base: 0px;
+
+@component-background: transparent;
+@body-background: #000000;
+@layout-body-background: transparent;
+@layout-header-background: transparent;
+@popover-background: transparent;
+@border-color-base: transparent;
+@border-color-split: transparent;
+//@table-header-sort-active-bg: ;
+@card-skeleton-bg: transparent;
+@skeleton-color: transparent;
+@table-header-sort-active-bg: transparent;
+
+@success-color: #63d7c5;
+
+/*@link-hover-color: white;
+@link-active-color: white;
+@item-hover-bg: white;
+@btn-text-hover-bg: white;
+*/
+.pageLayout {
+  @body-background: linear-gradient(180deg, #16153d 0%, #000000 100%);
+  @layout-body-background: linear-gradient(180deg, #16153d 0%, #000000 100%);
+  background: linear-gradient(180deg, #16153d 0%, #000000 100%);
+}
+
+/*.highlight {
+  background-color: #3f3f3f;
+}*/
+
+.ant-table-thead > tr > th {
+  background: transparent;
+}
+
+.ant-tabs {
+  color: #4f4f4f;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff;
+}
+
+.ant-menu-item .anticon + span {
+  margin-left: 0px;
+}
+
+.ant-btn:hover {
+  color: grey;
+}
+
+.ant-table {
+  border: 1px solid #4a4a4b !important;
+
+  & table {
+    border-collapse: collapse;
+  }
+}
+
+.ant-dropdown {
+  background: #000c17;
+}
+
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-body > table > tbody > tr > td,
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-header > table > thead > tr > th,
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > tbody > tr > td,
+.ant-table.ant-table-bordered > .ant-table-container > .ant-table-content > table > thead > tr > th {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #4a4a4b;
+  border-right: none;
+}
+
+.ant-table-expanded-row
+  > .ant-table-cell
+  > .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-body
+  > table
+  > tbody
+  > tr
+  > td,
+.ant-table-expanded-row
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-header
+  > table
+  > thead
+  > tr
+  > th,
+.ant-table-expanded-row
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > tbody
+  > tr
+  > td,
+.ant-table-expanded-row
+  .ant-table.ant-table-bordered
+  > .ant-table-container
+  > .ant-table-content
+  > table
+  > thead
+  > tr
+  > th {
+  border: none;
+  background: linear-gradient(180deg, rgba(64, 58, 244, 0.5) 0%, rgba(82, 25, 96, 0.75) 100%) !important;
+}
+
+.ant-table-expanded-row .ant-table-cell {
+  background: linear-gradient(180deg, rgba(64, 58, 244, 0.5) 0%, rgba(82, 25, 96, 0.75) 100%) !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td {
+  background: linear-gradient(180deg, rgba(64, 58, 244, 0.5) 0%, rgba(82, 25, 96, 0.75) 100%) !important;
+}
+
+.ant-table-expanded-row .ant-table {
+  border: none !important;
+}
+
+button:disabled {
+  color: white !important;
+}
+
+/*button {
+  border-radius: 4px !important;
+}*/
+
+.ant-btn,
+.ant-table-row-expand-icon {
+  background-color: #403af4 !important;
+  border-radius: 2.9px;
+}
+
+.ant-btn:hover,
+.ant-btn active {
+  color: white;
+}
+
+.ant-dropdown {
+  background: #16153d !important;
+}
+
+.ant-dropdown .ant-dropdown-menu-item:hover {
+  background: #0a0775 !important;
+}
+
+.ant-picker-dropdown {
+  background: midnightblue;
+}

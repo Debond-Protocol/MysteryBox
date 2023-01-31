@@ -1,0 +1,321 @@
+.App {
+  text-align: center;
+}
+
+.dlayoutContent {
+  background: linear-gradient(180deg, #16153d 0%, #000000 100%) !important;
+  margin: 0px 5% 50px 5% !important;
+  padding-top: 30px;
+  /*padding: 20px 10px 20px 20px;*/
+  min-height: 720px;
+}
+
+.dlayoutContent .ant-layout-content {
+  height: 100%;
+}
+
+* {
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+}
+
+.ant-menu-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 146%;
+  /* identical to box height, or 20px */
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.ant-menu-item a {
+  color: #7a7a7a !important;
+}
+
+.ant-layout-sider {
+  width: 272px !important;
+  flex: unset !important;
+  max-width: unset !important;
+  min-width: unset !important;
+}
+
+.ant-layout-sider .ant-menu .ant-menu-item img {
+  width: 14px;
+}
+
+.ant-layout-sider .ant-menu-item-selected {
+  background: rgba(66, 66, 66, 0.3) !important;
+}
+
+.ant-layout-sider .ant-menu-item-selected a {
+  color: #dfdfdf;
+}
+
+.ant-layout-sider .ant-menu-item img {
+  display: inline;
+}
+
+.ant-menu-item-selected span a {
+  color: white !important;
+}
+
+.ant-layout-content {
+  /*flex:unset!important;
+      width: 70%!important;*/
+  margin: 20px 0px 10px 0px;
+}
+.ant-layout-header {
+  margin: 00px 40px 30px 40px;
+}
+
+.ant-tabs-nav-wrap {
+  margin: 0px 40px 30px 40px;
+}
+
+.pageTitle {
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 146% !important;
+  /* identical to box height, or 29px */
+
+  /* Debond Grey */
+  color: #dfdfdf !important;
+}
+
+.pageDescription {
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 150% !important;
+  /* or 18px */
+  /* Gray 4 */
+  color: #bdbdbd !important;
+}
+
+.pageInfos {
+  width: 281px;
+  margin-bottom: 30px;
+}
+
+.ant-table-thead > tr > th {
+  background-color: unset;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 146%;
+  /* identical to box height, or 18px */
+  text-transform: uppercase;
+
+  color: #828282;
+}
+
+.dlayoutContent .ant-layout-header {
+  height: unset !important;
+  padding: unset;
+}
+
+.Address {
+  /*background: rgba(62, 58, 244, 0.87);*/
+  /*border: 0.5px solid #FFFFFF;
+      box-sizing: border-box;*/
+}
+
+.leftWallet button {
+  position: relative;
+  margin-top: -10px !important;
+}
+
+#getBondModal {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.ant-modal-content {
+  text-align: center;
+  background: linear-gradient(180deg, #16153d 0%, #000000 100%);
+  border: 0.5px solid #403af4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ant-modal-content .ant-card,
+.ant-modal-content .ant-modal-header .ant-modal-content .ant-card *,
+.ant-modal-header {
+  background-color: transparent !important;
+}
+
+.ant-modal-header {
+  background-color: transparent !important;
+}
+
+.ant-card {
+  background-color: transparent !important;
+}
+
+.ant-slider-rail {
+  background-color: rgb(33, 33, 33);
+}
+
+.logoDiv img {
+  position: absolute;
+  width: 150px;
+  left: 5%;
+  top: 40px;
+}
+
+.ant-table-row-expand-icon:focus,
+.ant-table-row-expand-icon:hover {
+  color: inherit;
+}
+
+#walletConnector {
+  border: 0.5px solid #ffffff;
+  box-sizing: border-box;
+  width: fit-content;
+  min-width: 288px;
+  position: fixed;
+  top: 40px;
+  right: 360px;
+  /*top:-30px;
+      right: 20px;*/
+}
+
+.dheader .ant-menu {
+  background-color: #000000;
+  border: 0.2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+#walletConnector .ant-menu-item {
+  padding: unset !important;
+}
+
+#walletConnector .ant-menu-submenu-title span {
+  width: 100% !important;
+  text-align: center;
+}
+
+#networkConnection {
+  border: 0.5px solid #ffffff;
+  box-sizing: border-box;
+  width: 150px;
+  position: fixed;
+  right: 190px;
+  top: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  /* or 20px */
+  text-transform: uppercase;
+
+  /* Debond Grey */
+  color: #dfdfdf;
+}
+
+.layout-sider .ant-menu {
+  font-size: 14px;
+}
+
+.ant-notification-notice {
+  background-color: black !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ffffff;
+}
+
+.ant-tabs {
+  margin: 5vh 0 5vh 0 !important;
+  border-bottom: 3px #6c757d;
+}
+
+.stats-header .ant-statistic-content-value {
+  font-size: 36px;
+}
+
+.leftWallet > div {
+  display: flex;
+}
+
+.leftWallet .ant-btn {
+  box-sizing: border-box;
+  border-radius: 4px;
+  top: 0px;
+  height: 49px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  text-transform: uppercase;
+  color: #dfdfdf;
+}
+
+.debond-btn {
+  background: #403af4;
+  border-radius: 2.92818px;
+  padding: 10px 6vw 10px 6vw;
+  height: auto;
+}
+.debond-btn span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 146%;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Debond White */
+  color: #ffffff;
+}
+#burger-menu{
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  #burger-menu{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top:40px
+  }
+
+  #networkConnection, .leftWallet {
+    display: none!important;
+  }
+  .ant-modal-content{
+    height: 600px;
+  }
+  .ant-modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .burger-modal #walletConnector, .burger-modal #networkConnection{
+    position: initial;
+    display: block!important;
+  }
+
+  .burger-modal .wallet-buttons  {
+    margin-top:30px!important;
+  }
+
+  #networkConnection, #walletConnector, .wallet-buttons button{
+    width: 280px;
+    min-width: 280px;
+  }
+}
+
